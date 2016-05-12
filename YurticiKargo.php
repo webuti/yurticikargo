@@ -47,8 +47,3 @@ class YurticiKargo {
 	}
 	
 }
-
-$kargo = new YurticiKargo();
-
-$sorgu = $kargo->sorgula("303073736834");
-print_r($sorgu);
