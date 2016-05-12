@@ -1,21 +1,21 @@
-Kargo takip numarasýyla kargo hakkýnda bilgi alabileceðiniz bir sýnýf.
+ï»¿Kargo takip numarasÄ±yla kargo hakkÄ±nda bilgi alabileceÄŸiniz bir sÄ±nÄ±f.
 
-Bunu neden yaptým?
-- Belki bir gün birisinin iþine yarar diye.
+Bunu neden yaptÄ±m?
+- Belki bir gÃ¼n birisinin iÅŸine yarar diye.
 
-Nasýl çalýþýyor?
-- Yurtiçi Kargo'nun selfservis sayfasýndan bilgiler çekiliyor.
+NasÄ±l Ã§alÄ±ÅŸÄ±yor?
+- YurtiÃ§i Kargo'nun selfservis sayfasÄ±ndan bilgiler Ã§ekiliyor.
 
-Örnekler ve Rehber
-- Sýnýf dosyamýzý sayfamýza ekliyoruz.
+Ã–rnekler ve Rehber
+- SÄ±nÄ±f dosyamÄ±zÄ± sayfamÄ±za ekliyoruz.
 
 > require "YurticiKargo.php';
 
-- Sýnýfýmýzý baþlatýyoruz.
+- SÄ±nÄ±fÄ±mÄ±zÄ± baÅŸlatÄ±yoruz.
 
 > $kargo = new YurticiKargo();
 
-- Kargo takip numaramýzý yazýyoruz ve kargo bilgisini yazdýrýyoruz.
+- Kargo takip numaramÄ±zÄ± yazÄ±yoruz ve kargo bilgisini yazdÄ±rÄ±yoruz.
 
 > $sorgu = $kargo->sorgu("kargo takip no"); </br>
 > print_r($sorgu);
